@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+<dcatapit:Catalog rdf:about="https://github.com/giovinazzoTD/Comunegiovinazzo">
+  <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  <dct:title>Comune di Giovinazzo</dct:title>
+  <dct:publisher>
+    <dcatapit:Agent rdf:about="c_e047">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <dct:identifier>c_e047</dct:identifier>
+      <foaf:name>Comune di Giovinazzo</foaf:name>
+    </dcatapit:Agent>
+  </dct:publisher>
+  <dct:description>Open data comune di Giovinazzo</dct:description>
+  <dct:language>it</dct:language>
+  <foaf:homepage rdf:resource="https://github.com/giovinazzoTD/Comunegiovinazzo#"/>
+  <dcat:themeTaxonomy>
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+      <dct:title>Data Theme Vocabulary</dct:title>
+    </skos:ConceptScheme>
+  </dcat:themeTaxonomy>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-16</dct:modified>
+  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-11</dct:issued>
+  <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  <dcat:dataset rdf:resource="https://github.com/giovinazzoTD/Comunegiovinazzo/popolazione"/>
+  <dcat:dataset rdf:resource="https://github.com/giovinazzoTD/Comunegiovinazzo/verde-pubblico"/>
+  <dcat:dataset rdf:resource="https://github.com/giovinazzoTD/Comunegiovinazzo/locazioni-turistiche"/>
+  <dcat:dataset rdf:resource="https://github.com/giovinazzoTD/Comunegiovinazzo/strutture-ricettive"/>
+  </dcatapit:Catalog>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+    <skos:prefLabel>Popolazione e società</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/giovinazzoTD/Comunegiovinazzo/popolazione">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:license/>
+    <dct:title>popolazione</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/giovinazzoTD/popolazione/blob/main/giovinazzo-popolazione.csv/"/>
+    <dct:description>Fornisce i dati sulla popolazione con n. di matrimoni e nascite</dct:description>
+    <dct:identifier>c_e047:popolazione</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://www.comune.giovinazzo.ba.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_e047">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_e047</dct:identifier>
+        <foaf:name>Comune di Giovinazzo</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_e047</dct:identifier>
+        <foaf:name>Comune di Giovinazzo</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100210">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2816 demografia e popolazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-11</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-11</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.giovinazzo.ba.it/"/>
+    <dcat:keyword>popolazione</dcat:keyword>
+    <dcat:keyword>matrimoni</dcat:keyword>
+    <dcat:keyword>nascite</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/giovinazzoTD/Comunegiovinazzo/popolazione/csv2"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Ambiente</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/giovinazzoTD/Comunegiovinazzo/verde-pubblico">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>verde-pubblico</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/giovinazzoTD/verdepubblico/blob/main/verdeGiovinazzo-processed.csv/"/>
+    <dct:description>Decrive le alberature presenti sul territorio comunale</dct:description>
+    <dct:identifier>c_e047:verde-pubblico</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource=""/>
+    <dcat:contactPoint rdf:resource="https://www.comune.giovinazzo.ba.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_e047">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_e047</dct:identifier>
+        <foaf:name>Comune di Giovinazzo</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_e047</dct:identifier>
+        <foaf:name>Comune di Giovinazzo</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-11</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-02-11</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.giovinazzo.ba.it/"/>
+    <dcat:keyword>alberi</dcat:keyword>
+    <dcat:keyword>natura</dcat:keyword>
+    <dcat:keyword>ambiente</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/giovinazzoTD/Comunegiovinazzo/verde-pubblico/csv3"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Popolazione e società</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/giovinazzoTD/Comunegiovinazzo/locazioni-turistiche">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>locazioni-turistiche</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/giovinazzoTD/locazioni-turistiche/blob/main/Locazioni%20Turistiche.csv/"/>
+    <dct:description>Fornisce i dati sulle locazioni turistiche</dct:description>
+    <dct:identifier>c_e047:locazioni-turistiche</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource=""/>
+    <dcat:contactPoint rdf:resource="https://www.comune.giovinazzo.ba.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_e047">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_e047</dct:identifier>
+        <foaf:name>Comune di Giovinazzo</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_e047</dct:identifier>
+        <foaf:name>Comune di Giovinazzo</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-03</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-03</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.giovinazzo.ba.it/"/>
+    <dcat:keyword>turismo</dcat:keyword>
+    <dcat:keyword>locazioni</dcat:keyword>
+    <dcat:keyword>centro storico</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/giovinazzoTD/Comunegiovinazzo/locazioni-turistiche/csv4"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="">
+    <skos:prefLabel>Popolazione e società</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/giovinazzoTD/Comunegiovinazzo/strutture-ricettive">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource=""/>
+    <dct:license/>
+    <dct:title>strutture-ricettive</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/giovinazzoTD/strutture-ricettive/blob/main/Strutture%20ricettive.csv/"/>
+    <dct:description>Fornisce i dati sulle strutture turistiche</dct:description>
+    <dct:identifier>c_e047:strutture-ricettive</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource=""/>
+    <dcat:contactPoint rdf:resource="https://www.comune.giovinazzo.ba.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_e047">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_e047</dct:identifier>
+        <foaf:name>Comune di Giovinazzo</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_e047</dct:identifier>
+        <foaf:name>Comune di Giovinazzo</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it"/>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-03</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-04</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.giovinazzo.ba.it/"/>
+    <dcat:keyword>turismo</dcat:keyword>
+    <dcat:keyword>bed and breakfast</dcat:keyword>
+    <dcat:keyword>alberghi</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/giovinazzoTD/Comunegiovinazzo/strutture-ricettive/csv5"/>
+  </dcatapit:Dataset>
+  <dcatapit:Distribution rdf:about="https://github.com/giovinazzoTD/Comunegiovinazzo/popolazione/csv2">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/giovinazzoTD/popolazione/refs/heads/main/giovinazzo-popolazione.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>giovinazzo-popolazione.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/giovinazzoTD/Comunegiovinazzo/verde-pubblico/csv3">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/giovinazzoTD/verdepubblico/refs/heads/main/verdeGiovinazzo-processed.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>verdeGiovinazzo-processed.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/giovinazzoTD/Comunegiovinazzo/locazioni-turistiche/csv4">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/giovinazzoTD/locazioni-turistiche/refs/heads/main/Locazioni%20Turistiche.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Locazioni Turistiche.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/giovinazzoTD/Comunegiovinazzo/strutture-ricettive/csv5">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/giovinazzoTD/strutture-ricettive/refs/heads/main/Strutture%20ricettive.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Strutture ricettive.csv</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+<dcatapit:Organization rdf:about="https://www.comune.giovinazzo.ba.it/">
+  <rdf:type rdf:resource="vcard:Organization"/>
+  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdf:type rdf:resource="vcard:Kind"/>
+  <vcard:fn>Comune di Giovinazzo</vcard:fn>
+  <vcard:hasEmail rdf:resource="protocollo@comune.giovinazzo.ba.it"/>
+  <vcard:hasTelephone>0803902311</vcard:hasTelephone>
+  <vcard:hasURL rdf:resource="https://www.comune.giovinazzo.ba.it/"/>
+</dcatapit:Organization>
+</rdf:RDF>
